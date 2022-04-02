@@ -1,2 +1,2 @@
-# poryect_salarios
+# proyect_salarios
 Proyecto educativo de la escuela de JS de Platzi.

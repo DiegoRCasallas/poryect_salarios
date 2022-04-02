@@ -1,68 +1,81 @@
-//creamos la lista vacia.
-const colombia=[];
-
-//creamos las personas y las agregaos al array
-// utilizando el metodo push().
+const colombia = [];
 colombia.push({
-    name:"Diego",
-    salary:2000
-
+    name: "Camila",
+    salary: 500,
 });
-
 colombia.push({
-    name:"Andres",
-    salary:2000
-
+    name: "Nath",
+    salary: 1500,
 });
-
 colombia.push({
-    name:"Mario",
-    salary:1800
-
+    name: "Luisa",
+    salary: 1800,
 });
-
 colombia.push({
-    name:"Fernando",
-    salary:1500
-
+    name: "Laura",
+    salary: 1000,
 });
-
 colombia.push({
-    name:"Ivan",
-    salary:1750
-
+    name: "Daniela",
+    salary: 2200,
 });
-
-
-//creamos una fucnion que me va permitir entre los elementos de la lsta.
-// se me retornará el valor salary de cada unos de los objetos dentro del 
-//array que entre como parametro
-
-const salariosCol=colombia.map(
-    function (person) {
-        return person.salary;
-    }
-
-);
-
-//creamos una funcion que me vaa retornar el residuo de dos salarios
-const salariosColSorted= salariosCol.sort(function(salaryA,salaryB){
-    return salaryA-salaryB;
+colombia.push({
+    name: "Esperancita",
+    salary: 200,
 });
-
-//una funcion qeu me retornara true/flase si el numero es par o impar
-function esPar(numerito){
-    return (numerito%2 === 0);
-}
-
-function medianaSalarios(lista){
-    const mitad = parseInt(lista.length/2);
-    if(esPar(lista.length))//la funcion le retornara flase o trueaal if y eso condicionara el flujo de trabajo
-    {
-        const personaMitad1=lista [mitad-1];
-        const personaMitad2=lista [mitad];
-    }else{ 
-        const personaMitad=lista [mitad];
-        return personaMitad
-    }
-}
+colombia.push({
+    name: "Carla",
+    salary: 500,
+});
+colombia.push({
+    name: "Antonieta",
+    salary: 1500,
+});
+colombia.push({
+    name: "Alicia",
+    salary: 1300,
+});
+colombia.push({
+    name: "Ana",
+    salary: 2400,
+});
+colombia.push({
+    name: "Julia",
+    salary: 3400,
+});
+colombia.push({
+    name: "Rosa",
+    salary: 400,
+});
+colombia.push({
+    name: "Angélica",
+    salary: 400,
+});
+colombia.push({
+    name: "Tatiana",
+    salary: 400,
+});
+colombia.push({
+    name: "Lorena",
+    salary: 600,
+});
+colombia.push({
+    name: "Carolina",
+    salary: 1600,
+});
+colombia.push({
+    name: "Fernanda",
+    salary: 2600,
+});
+colombia.push({
+    name: "Nora",
+    salary: 1000,
+});
+colombia.push({
+    name: "Gisselle",
+    salary: 2000,
+});
+colombia.push({
+    name: "Bill Gates",
+    salary: 100000000,
+});
