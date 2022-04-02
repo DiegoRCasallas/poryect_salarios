@@ -46,7 +46,8 @@ function esPar(numerito) {
   // Mediana del top 10%
   const spliceStart = (salariosColSorted.length * 90) / 100;
   const spliceCount = salariosColSorted.length - spliceStart;
-  
+
+  //metodo splice me permite modificar un array recibe el argumento de corte y de cuantos elementos sacar
   const salariosColTop10 = salariosColSorted.splice(
     spliceStart,
     spliceCount,
